@@ -62,7 +62,7 @@ function App() {
       </StyledGridLayout>
       <GridPreview columns={gridProps.cols} rows={gridProps.rows} gap={gap}>
         {Array.from({ length: gridProps.cols * gridProps.rows }, (_, i) => (
-          <GridPreviewItem key={i}>{i + 1}</GridPreviewItem>
+          <GridPreviewItem key={i}>{/* {i + 1} */}</GridPreviewItem>
         ))}
       </GridPreview>
     </GridContainer>
